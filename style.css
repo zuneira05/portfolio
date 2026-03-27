@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -287,17 +287,15 @@ h3{
 }
 .section-container{
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     justify-content: center;
 }
 .section--pic-container{
     display: flex;
     justify-content: center;
-    height: 400px;
-    width: 400px;
     border-radius: 30px;
     overflow: hidden; 
-    margin-right: 4rem;   
+    margin-right: 2rem;   
 }
 about-details-container{
     display: flex;
@@ -306,7 +304,6 @@ about-details-container{
 .about-containers{
     display: flex;
     gap: 2rem;
-    gap: 3rem;
 }
 .about-containers .details-container{
     display: flex;
@@ -328,6 +325,7 @@ about-details-container{
 }
 .details-container p{
     color: rgb(85, 85, 85);
+    text-align: center;
 }
 .icon{
     height: 2.5rem;
