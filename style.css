@@ -519,3 +519,60 @@ footer p{
 .nav-links{
     padding-left: 500px;
 }
+.tech-footer {
+  margin-top: 30px;
+  padding: 30px 10px;
+  text-align: center;
+
+  background: transparent; /* blends with your page */
+  border-top: none;
+
+  font-size: 18px;
+  color: #374151;
+}
+
+.tech-footer p {
+  margin: 8px 0;
+}
+
+/* Version line */
+.version {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+/* Status */
+.status {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+/* Load time + clock */
+#clock,
+#loadTime {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* CTA line */
+.cta {
+  margin-top: 14px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.cta span {
+  color: #16a34a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cta span:hover {
+  text-decoration: underline;
+}
+
+/* spacing from copyright */
+footer p {
+  margin-bottom: 12px;
+}
