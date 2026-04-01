@@ -576,3 +576,61 @@ footer p{
 footer p {
   margin-bottom: 12px;
 }
+/* Popup background */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+
+  display: none; /* hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup box */
+.popup-content {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  text-align: center;
+  width: 280px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Heading */
+.popup-content h3 {
+  margin-bottom: 10px;
+}
+
+/* Button */
+.popup-content button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background: #1d4ed8;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

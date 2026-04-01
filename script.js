@@ -25,13 +25,25 @@ updateClock();
 // Console message (hidden)
 console.log("👀 Hey developer! Thanks for checking my portfolio.");
 
-// CTA click
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector(".cta span");
+  const popup = document.getElementById("customPopup");
+  const closeBtn = document.getElementById("closePopup");
 
   if (btn) {
     btn.addEventListener("click", () => {
-      alert("Let's connect 😄");
+      popup.style.display = "flex";
     });
   }
+
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+
+  // close when clicking outside
+  window.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  });
 });
