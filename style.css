@@ -600,6 +600,7 @@ footer p {
 .nav-links {
     padding-left: 500px;
 }
+<<<<<<< HEAD
 .tech-footer {
   margin-top: 30px;
   padding: 30px 10px;
@@ -614,104 +615,140 @@ footer p {
 
 .tech-footer p {
   margin: 8px 0;
+=======
+
+.tech-footer {
+    margin-top: 30px;
+    padding: 30px 10px;
+    text-align: center;
+
+    background: transparent;
+    /* blends with your page */
+    border-top: none;
+
+    font-size: 18px;
+    color: #374151;
+}
+
+.tech-footer p {
+    margin: 8px 0;
+>>>>>>> new
 }
 
 /* Version line */
 .version {
+<<<<<<< HEAD
   font-size: 19px;
   font-weight: 500;
+=======
+    font-size: 19px;
+    font-weight: 500;
+>>>>>>> new
 }
 
 /* Status */
 .status {
+<<<<<<< HEAD
   color: #22c55e;
   font-weight: 600;
+=======
+    color: #22c55e;
+    font-weight: 600;
+>>>>>>> new
 }
 
 /* Load time + clock */
 #clock,
 #loadTime {
+<<<<<<< HEAD
   font-size: 16px;
   color: #6b7280;
+=======
+    font-size: 16px;
+    color: #6b7280;
+>>>>>>> new
 }
 
 /* CTA line */
 .cta {
-  margin-top: 14px;
-  font-size: 20px;
-  font-weight: 500;
-  color: #2563eb;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2563eb;
 }
 
 .cta span {
-  color: #16a34a;
-  font-weight: 600;
-  cursor: pointer;
+    color: #16a34a;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .cta span:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* spacing from copyright */
 footer p {
-  margin-bottom: 12px;
+    margin-bottom: 12px;
 }
+
 /* Popup background */
 .popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
 
-  display: none; /* hidden by default */
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+    display: none;
+    /* hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
 /* Popup box */
 .popup-content {
-  background: #ffffff;
-  padding: 30px 25px;
-  border-radius: 12px;
-  text-align: center;
-  width: 280px;
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 280px;
 
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-  animation: fadeIn 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease;
 }
 
 /* Heading */
 .popup-content h3 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 /* Button */
 .popup-content button {
-  margin-top: 15px;
-  padding: 8px 16px;
-  border: none;
-  background: #2563eb;
-  color: white;
-  border-radius: 6px;
-  cursor: pointer;
+    margin-top: 15px;
+    padding: 8px 16px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .popup-content button:hover {
-  background: #1d4ed8;
+    background: #1d4ed8;
 }
 
 /* Animation */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
