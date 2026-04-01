@@ -5,3 +5,45 @@ function toggleMenu(){
     icon.classList.toggle('open');
     console.log('clicked');
 }
+// Load time
+window.addEventListener("load", () => {
+  const time = performance.now().toFixed(0);
+  document.getElementById("loadTime").innerText =
+    `Loaded in ${time} ms ⚡`;
+});
+
+// Live clock
+function updateClock() {
+  const now = new Date();
+  document.getElementById("clock").innerText =
+    now.toLocaleTimeString();
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+
+// Console message (hidden)
+console.log("👀 Hey developer! Thanks for checking my portfolio.");
+
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".cta span");
+  const popup = document.getElementById("customPopup");
+  const closeBtn = document.getElementById("closePopup");
+
+  if (btn) {
+    btn.addEventListener("click", () => {
+      popup.style.display = "flex";
+    });
+  }
+
+  closeBtn.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+
+  // close when clicking outside
+  window.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  });
+});
